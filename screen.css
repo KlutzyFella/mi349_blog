@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+.navbar {
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px 20px;
+  background-color: teal;
+}
+
+a { 
+  text-decoration: none; 
+  color: whitesmoke;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  gap: 20px;
+}
+
+.navbar a{
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+.navbar a:hover{
+  color: black; 
+  font-weight: bold;
+}
+
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th,td {
+  padding: 4px;
+}
+
+/* The following 3 CSS sections were borrowed for this week from w3schools.com
+This was done because otherwise the Form was looking very weird 
+and I do not know how to add CSS to a form yet
+I will change the CSS next when we add our own CSS to the blog*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*Cited CSS Over*/
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #d93d7b;
+  padding: 20px;
+} 
