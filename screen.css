@@ -17,6 +17,8 @@ body {
   margin: 0;
   padding: 20px 20px;
   background-color: teal;
+  position: sticky;
+  top: 0px;
 }
 
 a { 
@@ -48,11 +50,60 @@ a {
   font-weight: bold;
 }
 
+.blog-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 0px 20%;
+  gap: 2rem;
+}
+
+.blog-post {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imageIndex {
+  width: 50%;
+  height: 50%;
+  /* float: right ; */
+}
+
+.threeColumnFlexLayout {
+    display: flex;
+    margin: 50px 10px;
+}
+
+.aboutMePara {
+    width: calc(100% / 3);
+}
+
+.aboutMeImage {
+    width: calc(20% / 3);
+    display: flex;
+    justify-content: center;
+}
+
+.imageAboutMe {
+    width: 50%;
+    height: auto;
+}
+
+.aboutMeFunFact {
+    width: calc(100% / 3);
+}
 
 
 h2 {
   display: flex;
   justify-content: center;
+  margin: 10px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
 }
 
 table, th, td {
@@ -61,6 +112,14 @@ table, th, td {
 
 th,td {
   padding: 4px;
+}
+
+.author, .date {
+  margin: 5px 20%;
+}
+
+.aboutMeContent {
+    margin: 1% 15%;
 }
 
 /* The following 3 CSS sections were borrowed for this week from w3schools.com
