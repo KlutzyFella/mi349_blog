@@ -79,7 +79,7 @@ a {
 }
 
 .aboutMeImage {
-    width: calc(20% / 3);
+    width: calc(200% / 3);
     display: flex;
     justify-content: center;
 }
